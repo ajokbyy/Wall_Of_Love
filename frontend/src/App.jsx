@@ -2,11 +2,15 @@ import React from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar';
+import HeroSlider from './components/HeroSlider';
+import GenderCategory from './components/GenderCategory';
 
 function App() {
   return (
     <div className="App content-wrapper">
       <Navbar />
+      <HeroSlider />
+      <GenderCategory />
       <main className="main-content">
         <section id="home" className="section">
           <h1>Welcome to Wall of Love</h1>
